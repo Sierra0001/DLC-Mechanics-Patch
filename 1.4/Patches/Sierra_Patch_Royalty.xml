@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RoyalTitleDef/disabledWorkTags</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RoyalTitleDef/requiredApparel</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RoyalTitleDef/throneRoomRequirements</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RoyalTitleDef/bedroomRequirements</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/RoyalTitleDef/foodRequirement</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+</Patch>
