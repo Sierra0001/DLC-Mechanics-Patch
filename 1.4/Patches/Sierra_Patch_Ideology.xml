@@ -13,6 +13,9 @@
         <li Class="PatchOperationRemove">
           <xpath>/Defs/PreceptDef/roleApparelRequirements</xpath>
         </li>
+        <!-- <li Class="PatchOperationRemove">
+          <xpath>/Defs/PreceptDef/buildingRoomRequirementsFixed</xpath>
+        </li> -->
       </operations>
     </match>
   </Operation>
